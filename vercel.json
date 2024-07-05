@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "urFileName.js",
+      "src": "app.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/endpointName",
-      "dest": "urFileName.js"
+      "src": "/api/bing",
+      "dest": "/app.js"
     }
   ]
 }
